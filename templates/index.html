@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplifIQ — Free Business Audit</title>
+</head>
+<body>
+
+    <h2>Company Lead Intake Form</h2>
+
+    <form method="POST" action="/submit">
+
+        <label>Your Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Your Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Company Name:</label><br>
+        <input type="text" name="company" required><br><br>
+
+        <label>Company Website:</label><br>
+        <input type="text" name="website" required><br><br>
+
+        <label>Industry:</label><br>
+        <select name="industry" required>
+            <option value="">Select industry...</option>
+            <option>SaaS / Software</option>
+            <option>Finance & Fintech</option>
+            <option>Consulting & Professional Services</option>
+            <option>E-commerce & Retail</option>
+            <option>Healthcare & MedTech</option>
+            <option>Manufacturing</option>
+            <option>Real Estate</option>
+            <option>Education & EdTech</option>
+            <option>Marketing & Advertising</option>
+            <option>Logistics & Supply Chain</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Company Size:</label><br>
+        <select name="size" required>
+            <option value="">Select size...</option>
+            <option>1–10 employees</option>
+            <option>11–50 employees</option>
+            <option>51–200 employees</option>
+            <option>201–500 employees</option>
+            <option>500+ employees</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>

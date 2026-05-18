@@ -1,0 +1,7 @@
+Flask
+requests
+beautifulsoup4
+reportlab
+python-dotenv
+gspread
+oauth2client
