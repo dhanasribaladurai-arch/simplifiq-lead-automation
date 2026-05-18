@@ -55,7 +55,7 @@ python app.py
 ```
 
 5. Open browser
-   http://localhost:5000
+   [http://localhost:5000](http://127.0.0.1:5000)
 
 ## Design Decisions
 - **Background threading** — form returns instantly, pipeline runs async
